@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+header {
+  background-color: white;
+  border-bottom: 1px solid grey;
+  position: sticky;
+  top: 0%;
+  z-index: 999;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.banner1,
+.banner2,
+.banner3 {
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(to bottom, rgb(230, 23, 23), rgb(118, 6, 6));
+  background-size: cover;
+  background-position: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  padding: 30px;
+
+
+}
+
+.banner1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 23, 0.37), rgb(0, 6, 6)), url('./CodeToRoad/assets/couple-love-driving-beach.jpg');
+}
+
+.banner2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 23, 0.37), rgb(0, 6, 6)), url('./CodeToRoad/assets/having-fun-on-the-beachbanner3.jpg');
+}
+
+.banner3 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 23, 0.37), rgb(0, 6, 6)), url('./CodeToRoad/assets/banner1.jpeg');
+}
+
+.carousel h1 {
+  font-weight: 900;
+}
+
+.carousel p {
+  font-weight: 100;
+}
+
+.carousel-item button {
+  padding: 8px 15px;
+  border: 1px solid white;
+  background-color: transparent;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.whychoose .card img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.story .card img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+
+.services .card img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.detsination .card img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+form p{
+  color: red;
+  padding: 0px 10px;
 }
