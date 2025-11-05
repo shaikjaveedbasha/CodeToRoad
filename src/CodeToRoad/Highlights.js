@@ -10,9 +10,9 @@ import food from './assets/local-food.jpg'
 const Highlights = () => {
     return (
         <section className='py-4 bg-light' id='highlights'>
-            <div className='container-fluid'>
+            <div className='container'>
                 <div className='text-center mb-5'>
-                    <h2 className='fw-bold'>why Choose<span className='text-primary'>CodeToRoad</span></h2>
+                    <h2 className='fw-bold'>Why Choose<span className='text-primary'>CodeToRoad</span></h2>
                     <p className='text-muted'>We make your weekends memorable, relaxing, and hassle</p>
                 </div>
                 <div className='row whychoose'>
