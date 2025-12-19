@@ -10,7 +10,7 @@ const Home = () => {
 
 
                     <div className="carousel-item active">
-                        <div className="banner1" data-bs-interval="4000">
+                        <div className="banner1" data-bs-interval="3000">
                             <h1 className="">
                                 <Typewriter
                                     options={{
@@ -28,7 +28,7 @@ const Home = () => {
                     </div>
 
 
-                    <div className="carousel-item" data-bs-interval="4000">
+                    <div className="carousel-item" data-bs-interval="3000">
                         <div className="banner2">
                             <h1>
                                 <Typewriter
@@ -45,7 +45,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="carousel-item" data-bs-interval="4000">
+                    <div className="carousel-item" data-bs-interval="3000">
                         <div className="banner3">
                             <h1>
                                 <Typewriter
