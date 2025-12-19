@@ -7,10 +7,6 @@ header {
 
 }
 
-
-
-
-
 .banner1,
 .banner2,
 .banner3 {
@@ -31,15 +27,15 @@ header {
 }
 
 .banner1 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 23, 0.37), rgb(0, 6, 6)), url('./CodeToRoad/assets/couple-love-driving-beach.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 23, 0.37), rgba(0, 6, 6, 0.692)), url('./CodeToRoad/assets/couple-love-driving-beach.jpg');
 }
 
 .banner2 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 23, 0.37), rgb(0, 6, 6)), url('./CodeToRoad/assets/having-fun-on-the-beachbanner3.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 23, 0.37), rgb(0, 6, 6)), url('./CodeToRoad/assets/pexels-rachel-claire-7276610.jpg');
 }
 
 .banner3 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 23, 0.37), rgb(0, 6, 6)), url('./CodeToRoad/assets/banner1.jpeg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 23, 0.37), rgba(0, 6, 6, 0.479)), url('./CodeToRoad/assets/banner1.jpeg');
 }
 
 .carousel h1 {
@@ -93,4 +89,26 @@ header {
 form p{
   color: red;
   padding: 0px 10px;
+}
+
+aside{
+  text-align: center;
+  border-right: 1px solid grey;
+  padding: 50px 20px !important ;
+}
+
+aside button{
+  width: 100%;;
+  height: 50px;
+  border: none;
+  margin-bottom: 10px;
+  
+}
+
+aside button:hover{
+  background-color: blue;
+  color: white;
+}
+.card:hover {
+  transform: translateY(-6px);
 }
